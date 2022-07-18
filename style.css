@@ -1,0 +1,90 @@
+/* -------------
+    fonts
+------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------
+    utilities
+------------- */
+body{
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.container{
+    width: 870px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+
+.sec-title{
+    color: #562EFF;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 36px;
+}
+
+/* -------------
+    top section 
+------------- */
+.top-sec{
+    padding: 30px;
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 29px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 0 16px;
+}
+.player p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.players .player img{
+    width: 56px;
+    height: 56px;
+}
+hr{
+    margin: 30px 0;
+}
+.blogs .blog img{
+    width: 117px;
+    height: 117px;
+}
+.blogs .blog p{
+    font-size: 20px;
+    width: 180px;
+    line-height: 34px;
+}
+.blogs .blog p span{
+    font-weight: 400;
+    color: #9F9F9F;
+}
+.blogs .blog p a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 26px;
+
+}
+.blog{
+    display: flex;
+    align-items: center;
+    gap: 0 16px;
+}
